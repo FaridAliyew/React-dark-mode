@@ -1,0 +1,456 @@
+/* ------- Login ------- */
+body{
+    background-color: #FFD1B0;
+}
+.login-container {
+    height: 100vh;
+    .en-button, .az-button{
+        background-color: rgb(200, 255, 0);
+        border: solid 2px rgb(62, 60, 56);
+        padding: 10px;
+        color: black;
+        border-radius: 20px;
+    }
+    
+
+    .container {
+        background-color: #ffffff45;
+        border-radius: 50px;
+
+        .forms {
+            background-color: #fffbfb56;
+            width: 500px;
+            height: 650px;
+            margin: 10px auto !important;
+            border-radius: 50px;
+
+            form {
+                position: relative;
+                top: -70px;
+
+                label {
+                    font-weight: 600;
+                }
+
+                input {
+                    outline: none;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 9px;
+                    width: 89%;
+                }
+
+                .submit {
+                    /* position: relative; */
+                    /* top: 65px; */
+                    border: none;
+                    background-color: #F25019;
+                    color: white;
+                    width: 89%;
+                    border-radius: 5px;
+                    padding: 7px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    margin-top: 70px;
+                }
+            }
+
+            .forget-password {
+                position: relative;
+                top: -250px;
+                right: 40px;
+                font-size: 14px;
+                color: #AE4700;
+                float: right;
+            }
+
+            .continue {
+                position: relative;
+                top: -80px;
+                left: 90px;
+                color: #333;
+                font-weight: 500;
+            }
+
+            .icons {
+                position: relative;
+                top: -100px;
+                left: 75px;
+
+                .icon {
+                    padding: 8px 25px;
+                    border-radius: 20px;
+                    margin-left: 10px;
+                    background-color: rgb(255, 255, 255);
+
+                    .google,
+                    .gitHub,
+                    .facebook {
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .goToRegister {
+                position: relative;
+                top: -50px;
+                left: -15px;
+                text-align: center;
+            }
+            .goRegister{
+                color: #AE4700;
+                font-weight: 500;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* ---- Register form ------- */
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        background-color: #ffffff45;
+        padding: 20px;
+        border-radius: 10px;
+        border-radius: 50px;
+
+        .forms {
+            background-color: #fffbfb56;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 30px;
+            margin: 0 auto !important;
+
+            form {
+                label {
+                    font-weight: 600;
+                }
+
+                input {
+                    outline: none;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 9px;
+                    width: 100%;
+                }
+
+                .submit {
+                    border: none;
+                    background-color: #F25019;
+                    color: white;
+                    width: 100%;
+                    border-radius: 5px;
+                    padding: 10px;
+                    font-weight: 500;
+                    margin-top: 20px;
+                }
+            }
+
+            .goToLogin {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+
+            .goLogin {
+                color: #AE4700;
+                font-weight: 500;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* -------- About ------- */
+.about-me {
+    background-color: #222;
+    border-radius: 30px;
+    padding: 50px;
+  }
+  
+  .about-me h1 {
+    font-size: 70px;
+  }
+  
+  .about-me span {
+    font-size: 20px;
+  }
+  
+  .about-me .social-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .about-me .social-links i {
+    font-size: 48px;
+    transition: filter 0.3s ease;
+  }
+  
+  .about-me .social-links i:hover {
+    filter: drop-shadow(0 0 10px currentColor);
+  }
+  
+  .about-me .social-links .fa-instagram {
+    color: red;
+  }
+  
+  .about-me .social-links .fa-twitter {
+    color: rgb(7, 220, 248);
+  }
+  
+  .about-me .social-links .fa-facebook-f {
+    color: rgb(0, 81, 255);
+  }
+  
+  .about-me .social-links .material-icons {
+    color: rgb(98, 167, 71);
+  }
+  
+  .about-me .img-fluid {
+    border-radius: 10px;
+    filter: drop-shadow(rgba(142, 122, 122, 0.6) 1rem 1rem 10px);
+  }
+  
+  /* ------- Contact Us --------- */
+  .contact-us {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-us h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-us form {
+    margin-top: 20px;
+  }
+  
+  .contact-us .form-label {
+    font-weight: bold;
+  }
+  
+  .contact-us .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .contact-us .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .contact-us .social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .contact-us .social-links a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-us .social-links a:hover {
+    color: #007bff;
+  }
+  
+
+
+
+/* ------- Responsive ------ */
+@media (min-width:320px) {
+    .login-container {
+        .container {
+            .forms {
+
+                .forget-password {
+                    left: 15px;
+                    font-size: 12.8px;
+                }
+
+                .continue {
+                    font-size: 15px;
+                    left: 25px;
+                    top: -200px;
+                }
+
+                form {
+                    input {
+                        width: 40vw !important;
+                    }
+                }
+
+                .icons {
+                    left: 20px;
+                    top: -200px !important;
+
+                    .facebook-icon {
+                        position: relative;
+                        top: 30px;
+                    }
+                }
+
+                .goToRegister {
+                    font-size: 12px;
+                    position: relative;
+                    top: -150px;
+                    left: 7px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:360px) {
+    .login-container {
+        .forms {
+            .goToRegister{
+                font-size: 15px !important;
+            }
+            .continue {
+                margin-top: 60px;
+            }
+
+            .icons {
+                margin-top: 10px;
+
+                .facebook-icon {
+                    top: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:455px) {
+    .login-container{
+        .forms{
+            .continue{
+                margin-left: 20px;
+            }
+            .icons{
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 512px) {
+    .login-container{
+        .forms{
+            .continue{
+                margin-left: 50px !important;
+            }
+            .icons{
+                margin-left: 40px !important;
+            }
+        }
+    }
+}
+
+@media (min-width : 560px) {
+    .login-container{
+        .container{
+            .forms{
+                .goToRegister{
+                    left: -20px;
+                }
+                .forget-password{
+                    margin-right: 55px !important;
+                }
+                form{
+                    input{
+                        width: 89% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width : 768px) {
+    .login-container{
+        .container{
+            .forms{
+                .goToRegister{
+                    left: -20px;
+                    font-size: 16px !important;
+                }
+                .continue{
+                    left: 60px;
+                }
+                .icons{
+                    left: 60px;
+                }
+            }
+        }
+    }
+}
+
+
+// Dark mode 
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+
+    .icons{
+        color: black;
+    }
+
+    .forget-password{
+        color: white !important;
+    }
+
+    .continue{
+        color: white !important;
+    }
+
+    .navbar {
+        background-color: #343a40;
+
+        .nav-link {
+            color: #ffffff;
+        }
+
+        .form-control {
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        .btn-outline-success {
+            border-color: #ffffff;
+            color: #ffffff;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #121212;
+            }
+        }
+    }
+}
+
+.darkMode-icon{
+    position: relative;
+    font-size: 35px;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+}
+
+  
